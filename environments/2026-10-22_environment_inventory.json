@@ -1,0 +1,2892 @@
+{
+  "captured_at": "2026-10-22T12:08:03.790199+00:00",
+  "method": "Read distribution METADATA/direct_url.json and version source as text; no installed packages imported, no pip commands or GPU work executed.",
+  "host": {
+    "platform": "Linux-5.15.0-25-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "os_release": "NAME=\"Ubuntu\"\nVERSION=\"20.04.6 LTS (Focal Fossa)\"\nID=ubuntu\nID_LIKE=debian\nPRETTY_NAME=\"Ubuntu 20.04.6 LTS\"\nVERSION_ID=\"20.04\"\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nVERSION_CODENAME=focal\nUBUNTU_CODENAME=focal\n"
+  },
+  "environments": {
+    "sdc_env": {
+      "path": "/data6t/hpk/sdc_env",
+      "pyvenv_cfg": "home = /usr/local/bin\ninclude-system-site-packages = false\nversion = 3.11.7\nexecutable = /usr/local/bin/python3.11\ncommand = /usr/local/bin/python3 -m venv /data6t/hpk/sdc_env\n",
+      "python_symlink": "/usr/local/bin/python3",
+      "torch_version_source": {
+        "__version__": "2.5.0+cu118",
+        "cuda": "11.8",
+        "hip": null
+      },
+      "package_count": 106,
+      "packages": [
+        {
+          "name": "DataProperty",
+          "version": "1.1.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/DataProperty-1.1.0.dist-info/METADATA",
+          "metadata_sha256": "20144025efe23ba43d00d657077986417518fbbad53a459270b25271b2cb2b01",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "DataProperty==1.1.0"
+        },
+        {
+          "name": "MarkupSafe",
+          "version": "2.1.5",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/MarkupSafe-2.1.5.dist-info/METADATA",
+          "metadata_sha256": "d9d4433da9ba3992dfa57d3083524de4fdeef5aaea002c5549f7469ac254ee8f",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "MarkupSafe==2.1.5"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/PyYAML-6.0.2.dist-info/METADATA",
+          "metadata_sha256": "f7ea1d141e6c7aee2918f704bfb13c8b2c4d179d7fb8a9da3468cb021cf696da",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "PyYAML==6.0.2"
+        },
+        {
+          "name": "absl-py",
+          "version": "2.1.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/absl_py-2.1.0.dist-info/METADATA",
+          "metadata_sha256": "093a793882e012362fe18edda421f35b9426339ee197eda2f808b3c059674580",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "absl-py==2.1.0"
+        },
+        {
+          "name": "accelerate",
+          "version": "1.4.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/accelerate-1.4.0.dist-info/METADATA",
+          "metadata_sha256": "4fa58ea972c904fff52bf6b7ac55519484e0facf9f6e9e0e7672ac459ee7d15f",
+          "requires_python": ">=3.9.0",
+          "requested": true,
+          "requirement": "accelerate==1.4.0"
+        },
+        {
+          "name": "aiohappyeyeballs",
+          "version": "2.5.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/aiohappyeyeballs-2.5.0.dist-info/METADATA",
+          "metadata_sha256": "cbfdc718e268362d8fe546d735e1d99ba41b702a93bd34d924f456119ae5a859",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "aiohappyeyeballs==2.5.0"
+        },
+        {
+          "name": "aiohttp",
+          "version": "3.11.13",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/aiohttp-3.11.13.dist-info/METADATA",
+          "metadata_sha256": "57fbd2e70db9fdee22455e0d4389a38c979a4a9ce0d08696aabbbb5f326a24b7",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "aiohttp==3.11.13"
+        },
+        {
+          "name": "aiosignal",
+          "version": "1.3.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/aiosignal-1.3.2.dist-info/METADATA",
+          "metadata_sha256": "4de23fc60675f75aa0c77eebbe2127a4c582d109d8b20fe3f441958af36aaa37",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "aiosignal==1.3.2"
+        },
+        {
+          "name": "attrs",
+          "version": "25.1.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/attrs-25.1.0.dist-info/METADATA",
+          "metadata_sha256": "6d989d7123e0a05e01bc5350632aa987835e1d583daf9e565e2c0012d6ef4677",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "attrs==25.1.0"
+        },
+        {
+          "name": "blobfile",
+          "version": "3.0.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/blobfile-3.0.0.dist-info/METADATA",
+          "metadata_sha256": "79a7732ed7d83494cfeaa0c4b9c0f0d663c30e531fd1058dff49e729f1e4bfdb",
+          "requires_python": ">=3.8.0",
+          "requested": true,
+          "requirement": "blobfile==3.0.0"
+        },
+        {
+          "name": "certifi",
+          "version": "2025.1.31",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/certifi-2025.1.31.dist-info/METADATA",
+          "metadata_sha256": "b7991c4f9686bb4750ebfa6c50d6584ea9c2d2e0919e9a277b09b7b988de1db8",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "certifi==2025.1.31"
+        },
+        {
+          "name": "chardet",
+          "version": "5.2.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/chardet-5.2.0.dist-info/METADATA",
+          "metadata_sha256": "3c0af6350ea1416a63c859f0948ecca311edd92ffaa11894b2e70e28c361cc6c",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "chardet==5.2.0"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.4.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/charset_normalizer-3.4.1.dist-info/METADATA",
+          "metadata_sha256": "25bc87ce19aa661fee8049f563b4d8ec20d8640f45a14e813f6e61ac23437f9d",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "charset-normalizer==3.4.1"
+        },
+        {
+          "name": "click",
+          "version": "8.1.8",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/click-8.1.8.dist-info/METADATA",
+          "metadata_sha256": "589b50eae192db26cb7ef504e2f0b45c884806be32146c23acc051d9f88243e4",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "click==8.1.8"
+        },
+        {
+          "name": "colorama",
+          "version": "0.4.6",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/colorama-0.4.6.dist-info/METADATA",
+          "metadata_sha256": "7baed29eb50c3b29bdb33ff84e3177bf1bc05784f7685ecdcaa4471c7dd810cc",
+          "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7",
+          "requested": true,
+          "requirement": "colorama==0.4.6"
+        },
+        {
+          "name": "datasets",
+          "version": "3.3.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/datasets-3.3.2.dist-info/METADATA",
+          "metadata_sha256": "f0dfb028e2f167c4a6de4a1eefb6dee3fef68026cbe38ab3c07d1ed9366de6b8",
+          "requires_python": ">=3.9.0",
+          "requested": true,
+          "requirement": "datasets==3.3.2"
+        },
+        {
+          "name": "dill",
+          "version": "0.3.8",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/dill-0.3.8.dist-info/METADATA",
+          "metadata_sha256": "531912b36714f09cab26c579912d1047d72b274ee1ad4252d91888310682e2cb",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "dill==0.3.8"
+        },
+        {
+          "name": "entmax",
+          "version": "1.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/entmax-1.3.dist-info/METADATA",
+          "metadata_sha256": "1c47019e8e296d2fcc0c357e47a1df5b7561ea2e477a239f9256e1df16efe19f",
+          "requires_python": ">=3.5",
+          "requested": true,
+          "requirement": "entmax==1.3"
+        },
+        {
+          "name": "evaluate",
+          "version": "0.4.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/evaluate-0.4.3.dist-info/METADATA",
+          "metadata_sha256": "ae3f6eaeaf63ef6ca2b4959e4fb259365f787cb9eee7b6979175a23496acc2e6",
+          "requires_python": ">=3.8.0",
+          "requested": true,
+          "requirement": "evaluate==0.4.3"
+        },
+        {
+          "name": "filelock",
+          "version": "3.13.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/filelock-3.13.1.dist-info/METADATA",
+          "metadata_sha256": "822ecbc86f9d12e381642df6c227be38e1b43a43d91c006c9fdad7bf1b9095c0",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "filelock==3.13.1"
+        },
+        {
+          "name": "frozenlist",
+          "version": "1.5.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/frozenlist-1.5.0.dist-info/METADATA",
+          "metadata_sha256": "06942f07bcf635b5377f85d3403be1019f4bd3c591e178986a38a58fd218e989",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "frozenlist==1.5.0"
+        },
+        {
+          "name": "fsspec",
+          "version": "2024.6.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/fsspec-2024.6.1.dist-info/METADATA",
+          "metadata_sha256": "8a3b75e990333cdf4fd3fd40538cdc29d88cd7ca642327f51a4afe2055eb94bc",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "fsspec==2024.6.1"
+        },
+        {
+          "name": "huggingface-hub",
+          "version": "0.29.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/huggingface_hub-0.29.2.dist-info/METADATA",
+          "metadata_sha256": "552d0f037a6c296a14b4a0379607412dac61838f34406149ce85869d38a87960",
+          "requires_python": ">=3.8.0",
+          "requested": true,
+          "requirement": "huggingface-hub==0.29.2"
+        },
+        {
+          "name": "idna",
+          "version": "3.10",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/idna-3.10.dist-info/METADATA",
+          "metadata_sha256": "5114796720df4353c2106864628a23a9f8b645ad2d6aedbefa58701b85d27e32",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "idna==3.10"
+        },
+        {
+          "name": "Jinja2",
+          "version": "3.1.4",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/jinja2-3.1.4.dist-info/METADATA",
+          "metadata_sha256": "47f6ebce93d0541be919cb26f966ebb60a2d3bbb2e4350f417eaa4853cde11f6",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "Jinja2==3.1.4"
+        },
+        {
+          "name": "joblib",
+          "version": "1.4.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/joblib-1.4.2.dist-info/METADATA",
+          "metadata_sha256": "f8f2fb393ed13a31124fc5c3bc5b0d7ad893d42dfdc4fd078e23cd7d1e7537bf",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "joblib==1.4.2"
+        },
+        {
+          "name": "jsonargparse",
+          "version": "3.13.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/jsonargparse-3.13.1.dist-info/METADATA",
+          "metadata_sha256": "5a3d6868ed7e635c2de4c571777e20e822e488180aee5a7de8146592fdbe09f0",
+          "requires_python": ">=3.5",
+          "requested": true,
+          "requirement": "jsonargparse==3.13.1"
+        },
+        {
+          "name": "jsonlines",
+          "version": "4.0.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/jsonlines-4.0.0.dist-info/METADATA",
+          "metadata_sha256": "5c3321bb4b3f59d96945201cb1ecac0599e94889ca6b9104330c8467ee59b471",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "jsonlines==4.0.0"
+        },
+        {
+          "name": "lightning-utilities",
+          "version": "0.14.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/lightning_utilities-0.14.2.dist-info/METADATA",
+          "metadata_sha256": "b48a802a07cb3641b3d5384dce298bd786edf9a186f6c92acb7714c92537b6e0",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "lightning-utilities==0.14.2"
+        },
+        {
+          "name": "lm_eval",
+          "version": "0.4.8",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/lm_eval-0.4.8.dist-info/METADATA",
+          "metadata_sha256": "efa68e3f005a404de0d5558ebbdf5e630c2ceda63954dd9b4d156301f8da7cb2",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "direct_url": {
+            "dir_info": {
+              "editable": true
+            },
+            "url": "file:///data6t/hpk/sdc_env/src/lm-eval"
+          },
+          "editable_source": {
+            "path": "/data6t/hpk/sdc_env/src/lm-eval",
+            "origin": "https://github.com/EleutherAI/lm-evaluation-harness",
+            "commit": "4890e881031a8ff00fd3136f938c4cf1ae101de4",
+            "status_porcelain": ""
+          },
+          "requirement": "-e git+https://github.com/EleutherAI/lm-evaluation-harness@4890e881031a8ff00fd3136f938c4cf1ae101de4#egg=lm_eval"
+        },
+        {
+          "name": "lxml",
+          "version": "5.3.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/lxml-5.3.1.dist-info/METADATA",
+          "metadata_sha256": "e0d95da792db6b64911ade3b260c36587919999ecaf9454401504a6d86511dff",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "lxml==5.3.1"
+        },
+        {
+          "name": "mbstrdecoder",
+          "version": "1.1.4",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/mbstrdecoder-1.1.4.dist-info/METADATA",
+          "metadata_sha256": "c3af34f4c6bb330a05d7bd9feabb6261f541602ddd48797b83c6748b1661327b",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "mbstrdecoder==1.1.4"
+        },
+        {
+          "name": "modelscope",
+          "version": "1.23.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/modelscope-1.23.2.dist-info/METADATA",
+          "metadata_sha256": "b42ee7d0e00ce18f42f177cdda9f4fa5fed55cfe949cedfc36caa0ff66145352",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "modelscope==1.23.2"
+        },
+        {
+          "name": "more-itertools",
+          "version": "10.6.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/more_itertools-10.6.0.dist-info/METADATA",
+          "metadata_sha256": "e39dd5061c35d0a768f6f18f3a1f4388a93a780ffa273828a8ee7abd1718feef",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "more-itertools==10.6.0"
+        },
+        {
+          "name": "mpmath",
+          "version": "1.3.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/mpmath-1.3.0.dist-info/METADATA",
+          "metadata_sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406",
+          "requires_python": null,
+          "requested": false,
+          "requirement": "mpmath==1.3.0"
+        },
+        {
+          "name": "multidict",
+          "version": "6.1.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/multidict-6.1.0.dist-info/METADATA",
+          "metadata_sha256": "3a70b1e434785cf7fae062032b85e6700d9eec72d0ffbf38bcc7c4432dbcee43",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "multidict==6.1.0"
+        },
+        {
+          "name": "multiprocess",
+          "version": "0.70.16",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/multiprocess-0.70.16.dist-info/METADATA",
+          "metadata_sha256": "4afd9e1f60a38f28d561aaf24caa8791b25397195503e49b9b3882824049790d",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "multiprocess==0.70.16"
+        },
+        {
+          "name": "networkx",
+          "version": "3.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/networkx-3.3.dist-info/METADATA",
+          "metadata_sha256": "6107b37969e88571a1d933dd27ca5cd6eb89689d20bbc43aae27ee2714872f50",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "networkx==3.3"
+        },
+        {
+          "name": "nltk",
+          "version": "3.9.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nltk-3.9.1.dist-info/METADATA",
+          "metadata_sha256": "14a239810d5063777ee767e56fd9309c559185e17ab4c573d9e3563ce727e02f",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "nltk==3.9.1"
+        },
+        {
+          "name": "numexpr",
+          "version": "2.10.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/numexpr-2.10.2.dist-info/METADATA",
+          "metadata_sha256": "c184ae6a029515efd61121f8b81e6a0091f80f35d0270004c28fa44fa8a17a42",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "numexpr==2.10.2"
+        },
+        {
+          "name": "numpy",
+          "version": "1.26.4",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/numpy-1.26.4.dist-info/METADATA",
+          "metadata_sha256": "b09734a7fed44e84b4c8161934ce532dff1e779ec6822d415644d117f6381070",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "numpy==1.26.4"
+        },
+        {
+          "name": "nvidia-cublas-cu11",
+          "version": "11.11.3.6",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cublas_cu11-11.11.3.6.dist-info/METADATA",
+          "metadata_sha256": "980e371df6451e38c377c7a5b5ae896d36bfcac7f3691206df1e729eaf07061c",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cublas-cu11==11.11.3.6"
+        },
+        {
+          "name": "nvidia-cuda-cupti-cu11",
+          "version": "11.8.87",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cuda_cupti_cu11-11.8.87.dist-info/METADATA",
+          "metadata_sha256": "43fb7fea5e6f788739f4165f417e584cfbf8c99afbabd58ed791407c04261b71",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cuda-cupti-cu11==11.8.87"
+        },
+        {
+          "name": "nvidia-cuda-nvrtc-cu11",
+          "version": "11.8.89",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cuda_nvrtc_cu11-11.8.89.dist-info/METADATA",
+          "metadata_sha256": "f76a74ee4ce211f5e9da79ae4bba0dc995abed4f222398deb1b4667789c07f27",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cuda-nvrtc-cu11==11.8.89"
+        },
+        {
+          "name": "nvidia-cuda-runtime-cu11",
+          "version": "11.8.89",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cuda_runtime_cu11-11.8.89.dist-info/METADATA",
+          "metadata_sha256": "610d636bb9e0f5b94eb539d07ea8e51e64b20ea9362b152525cc48b57f6d53a6",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cuda-runtime-cu11==11.8.89"
+        },
+        {
+          "name": "nvidia-cudnn-cu11",
+          "version": "9.1.0.70",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cudnn_cu11-9.1.0.70.dist-info/METADATA",
+          "metadata_sha256": "4a2e43134debff85fd2247550dd29420c1545aa7f0e4e21a29116ce0eae9f483",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cudnn-cu11==9.1.0.70"
+        },
+        {
+          "name": "nvidia-cufft-cu11",
+          "version": "10.9.0.58",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cufft_cu11-10.9.0.58.dist-info/METADATA",
+          "metadata_sha256": "5c84d3e9b3ce8dd3b13d06be900570e178c57f8fe253e2682d45eb3b03c9e090",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cufft-cu11==10.9.0.58"
+        },
+        {
+          "name": "nvidia-curand-cu11",
+          "version": "10.3.0.86",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_curand_cu11-10.3.0.86.dist-info/METADATA",
+          "metadata_sha256": "707118962911161b83f52f9a6877695996f4a372c38dddddd866b48a7fd8dbbc",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-curand-cu11==10.3.0.86"
+        },
+        {
+          "name": "nvidia-cusolver-cu11",
+          "version": "11.4.1.48",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cusolver_cu11-11.4.1.48.dist-info/METADATA",
+          "metadata_sha256": "f44ac67f73be3b94164e67e5f12fa9004b75250bd21031ee052f00abcd677ece",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cusolver-cu11==11.4.1.48"
+        },
+        {
+          "name": "nvidia-cusparse-cu11",
+          "version": "11.7.5.86",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_cusparse_cu11-11.7.5.86.dist-info/METADATA",
+          "metadata_sha256": "570965a9fd8a2fb22244d15937b435fe249a725d1f61fc7acbb1498274655054",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-cusparse-cu11==11.7.5.86"
+        },
+        {
+          "name": "nvidia-nccl-cu11",
+          "version": "2.21.5",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_nccl_cu11-2.21.5.dist-info/METADATA",
+          "metadata_sha256": "151afedf99042cd0b284db2504ae6ef0c556168190bd28e03d7c1c357c1591ba",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-nccl-cu11==2.21.5"
+        },
+        {
+          "name": "nvidia-nvtx-cu11",
+          "version": "11.8.86",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/nvidia_nvtx_cu11-11.8.86.dist-info/METADATA",
+          "metadata_sha256": "21a0164537d0f5aeedc618bd704af1ba6cfe33b06d3ce06d0c19823fe5462e6c",
+          "requires_python": ">=3",
+          "requested": false,
+          "requirement": "nvidia-nvtx-cu11==11.8.86"
+        },
+        {
+          "name": "packaging",
+          "version": "24.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/packaging-24.2.dist-info/METADATA",
+          "metadata_sha256": "a211fceacea4e6621f4316364d2d0b7127c00de3856b8062082f9bc5957ea4db",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "packaging==24.2"
+        },
+        {
+          "name": "pandas",
+          "version": "2.2.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pandas-2.2.3.dist-info/METADATA",
+          "metadata_sha256": "f05423139806d0d75d527aba42689260084dc7a2dad1f4f32b16770f97d1f70f",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pandas==2.2.3"
+        },
+        {
+          "name": "pathvalidate",
+          "version": "3.2.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pathvalidate-3.2.3.dist-info/METADATA",
+          "metadata_sha256": "dc3c663008f9d13a10212266adb625603fa4296edcdb811e20d17b98c68d1833",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pathvalidate==3.2.3"
+        },
+        {
+          "name": "peft",
+          "version": "0.14.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/peft-0.14.0.dist-info/METADATA",
+          "metadata_sha256": "33ff860c81921b5369b2cb752264a4767d7bfaf277e41094b07c96dcbe47f686",
+          "requires_python": ">=3.9.0",
+          "requested": true,
+          "requirement": "peft==0.14.0"
+        },
+        {
+          "name": "pillow",
+          "version": "11.0.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pillow-11.0.0.dist-info/METADATA",
+          "metadata_sha256": "065e96de0aa3bc9a02cb3ed028945f27e3e12ba0f3fe9f5ef951931ccf14f396",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pillow==11.0.0"
+        },
+        {
+          "name": "pip",
+          "version": "26.2.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pip-26.2.1.dist-info/METADATA",
+          "metadata_sha256": "3a561005822841f2c45f442f6c7a7505172c8c376c9fe274d876c8ac912968cb",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pip==26.2.1"
+        },
+        {
+          "name": "portalocker",
+          "version": "3.1.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/portalocker-3.1.1.dist-info/METADATA",
+          "metadata_sha256": "757c03987d1c977121f21c20f07bd4999739513d32d96299585f27906c30dd32",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "portalocker==3.1.1"
+        },
+        {
+          "name": "propcache",
+          "version": "0.3.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/propcache-0.3.0.dist-info/METADATA",
+          "metadata_sha256": "115644df49b56c70ab72867644bb6f7cd91d5f21c82270081b7f523591232f21",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "propcache==0.3.0"
+        },
+        {
+          "name": "protobuf",
+          "version": "4.25.6",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/protobuf-4.25.6.dist-info/METADATA",
+          "metadata_sha256": "47d6aa2d0c933a9515293f109b063d5e263d46722761acca4cd3433480723ff3",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "protobuf==4.25.6"
+        },
+        {
+          "name": "psutil",
+          "version": "7.0.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/psutil-7.0.0.dist-info/METADATA",
+          "metadata_sha256": "0453e4553a618524d8001e2f64a83b1c24419826cab87bf6b734e6723d383c89",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "psutil==7.0.0"
+        },
+        {
+          "name": "pyarrow",
+          "version": "19.0.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pyarrow-19.0.1.dist-info/METADATA",
+          "metadata_sha256": "120a17c8e006d2e1f3f4071385fd0b5f09b9c17b600043dd28b00607fb02265c",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pyarrow==19.0.1"
+        },
+        {
+          "name": "pybind11",
+          "version": "2.13.6",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pybind11-2.13.6.dist-info/METADATA",
+          "metadata_sha256": "1a0fda6747f76851431776d0be0cd1f64c154ff8e882354473be240d595d96ad",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "pybind11==2.13.6"
+        },
+        {
+          "name": "pycryptodomex",
+          "version": "3.22.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pycryptodomex-3.22.0.dist-info/METADATA",
+          "metadata_sha256": "ed193adab99f42aaabd5a2d16008aef00ee3d0e746a36ce31941da73f0c91d99",
+          "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*",
+          "requested": true,
+          "requirement": "pycryptodomex==3.22.0"
+        },
+        {
+          "name": "pytablewriter",
+          "version": "1.2.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pytablewriter-1.2.1.dist-info/METADATA",
+          "metadata_sha256": "120776acf32115ca7ad057f6cc2d9512652348857a57a5679fb9930de6fc3d1e",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pytablewriter==1.2.1"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+          "metadata_sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+          "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+          "requested": true,
+          "requirement": "python-dateutil==2.9.0.post0"
+        },
+        {
+          "name": "pytorch-lightning",
+          "version": "2.5.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pytorch_lightning-2.5.1.dist-info/METADATA",
+          "metadata_sha256": "e2d8c007783c4af1df08c652a17018cec036da00e4fba7851df3c83827e8f48d",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pytorch-lightning==2.5.1"
+        },
+        {
+          "name": "pytz",
+          "version": "2025.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/pytz-2025.1.dist-info/METADATA",
+          "metadata_sha256": "755f64e037fe92e21c4fc1766c589c5a46a27592ca31be3f6b7eefd43d9ac1c2",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "pytz==2025.1"
+        },
+        {
+          "name": "regex",
+          "version": "2024.11.6",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/regex-2024.11.6.dist-info/METADATA",
+          "metadata_sha256": "834d4e6889c9292660684fac77a4b805ac1cfb14b67e0d321d16eb535397ce98",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "regex==2024.11.6"
+        },
+        {
+          "name": "requests",
+          "version": "2.32.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/requests-2.32.3.dist-info/METADATA",
+          "metadata_sha256": "658ee8454c1e2e76fb8c2127116f61156b3b22941b3559c00389dca70038581a",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "requests==2.32.3"
+        },
+        {
+          "name": "rouge_score",
+          "version": "0.1.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/rouge_score-0.1.2.dist-info/METADATA",
+          "metadata_sha256": "ed60ef2ad9adee44a51a62fb12d62d19acc8307e648167ac3d8cba9770ed0299",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "rouge_score==0.1.2"
+        },
+        {
+          "name": "sacrebleu",
+          "version": "2.5.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/sacrebleu-2.5.1.dist-info/METADATA",
+          "metadata_sha256": "f4362c4b64b92bf2368ac0a1b26dd838315c02ac19b6aee2ad5cea44bfcc78ad",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "sacrebleu==2.5.1"
+        },
+        {
+          "name": "safetensors",
+          "version": "0.5.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/safetensors-0.5.3.dist-info/METADATA",
+          "metadata_sha256": "fe7d581363ed20b204701623da8f90dd8a3b9995e9a9290b616788d80356adbf",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "safetensors==0.5.3"
+        },
+        {
+          "name": "scikit-learn",
+          "version": "1.6.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/scikit_learn-1.6.1.dist-info/METADATA",
+          "metadata_sha256": "2fcfa92b3af08245a5abeb3e24c83c023f3c8cb98c384f567b73bdaa344de23f",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "scikit-learn==1.6.1"
+        },
+        {
+          "name": "scipy",
+          "version": "1.15.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/scipy-1.15.2.dist-info/METADATA",
+          "metadata_sha256": "17b941195715733f983ab4fefec2b1880d0b050cbb9207181781b8a25d070e83",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "scipy==1.15.2"
+        },
+        {
+          "name": "sentencepiece",
+          "version": "0.2.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/sentencepiece-0.2.0.dist-info/METADATA",
+          "metadata_sha256": "a8a8c4f673d7d88e5c9949e4bb441059b1f620d6283a74a2036be09071a9a7b3",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "sentencepiece==0.2.0"
+        },
+        {
+          "name": "setuptools",
+          "version": "84.0.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/setuptools-84.0.0.dist-info/METADATA",
+          "metadata_sha256": "3ef2975718dd31cabdd5829455e9b868ca14dbf79ed8fed2de0af4e87347006e",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "setuptools==84.0.0"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+          "metadata_sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+          "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",
+          "requested": true,
+          "requirement": "six==1.17.0"
+        },
+        {
+          "name": "sqlitedict",
+          "version": "2.1.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/sqlitedict-2.1.0.dist-info/METADATA",
+          "metadata_sha256": "3fbc5da6bd1e11e3bfe055e62d8b1ce2b25cf37f25aef74009f8a0143cc19248",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "sqlitedict==2.1.0"
+        },
+        {
+          "name": "sympy",
+          "version": "1.13.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/sympy-1.13.1.dist-info/METADATA",
+          "metadata_sha256": "d1dbbf156ee3ac2102086ee84196d252330153dc5ba5b290d49918c6ae5b8b1c",
+          "requires_python": ">=3.8",
+          "requested": false,
+          "requirement": "sympy==1.13.1"
+        },
+        {
+          "name": "tabledata",
+          "version": "1.3.4",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tabledata-1.3.4.dist-info/METADATA",
+          "metadata_sha256": "187affbc4017e26e68b56315122eb032161106abc6d38a7dcbd1ca666c153187",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tabledata==1.3.4"
+        },
+        {
+          "name": "tabulate",
+          "version": "0.9.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tabulate-0.9.0.dist-info/METADATA",
+          "metadata_sha256": "f2802aade2612091b45951f265af29174f90c3236f68cc8ccdeb646941e62969",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "tabulate==0.9.0"
+        },
+        {
+          "name": "tcolorpy",
+          "version": "0.1.7",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tcolorpy-0.1.7.dist-info/METADATA",
+          "metadata_sha256": "7ba55978f7c42a4cecd0eca305d55c82f44fda8d7f21f04e983da91afa38315e",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tcolorpy==0.1.7"
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "3.5.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/threadpoolctl-3.5.0.dist-info/METADATA",
+          "metadata_sha256": "6e28baa733e393b2e472180903e6c7efc094a6858916091835b03d1a045cb08c",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "threadpoolctl==3.5.0"
+        },
+        {
+          "name": "tiktoken",
+          "version": "0.9.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tiktoken-0.9.0.dist-info/METADATA",
+          "metadata_sha256": "36dcfbaf9a00deedc8db2e5d9801852fad12feb2223608c040bceb08d9e1fa8f",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tiktoken==0.9.0"
+        },
+        {
+          "name": "tinyBenchmarks",
+          "version": "1.0.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tinybenchmarks-1.0.0.dist-info/METADATA",
+          "metadata_sha256": "06c579fa33049c648c0efd38e85f90025be87b0a746bed3e36791b200dfb7208",
+          "requires_python": null,
+          "requested": true,
+          "direct_url": {
+            "url": "https://github.com/felipemaiapolo/tinyBenchmarks",
+            "vcs_info": {
+              "commit_id": "9c7e20302301ad531bfdfd9a7288e6e916bf22e9",
+              "requested_revision": "9c7e20302301ad531bfdfd9a7288e6e916bf22e9",
+              "vcs": "git"
+            }
+          },
+          "requirement": "tinyBenchmarks @ git+https://github.com/felipemaiapolo/tinyBenchmarks@9c7e20302301ad531bfdfd9a7288e6e916bf22e9"
+        },
+        {
+          "name": "tokenizers",
+          "version": "0.21.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tokenizers-0.21.0.dist-info/METADATA",
+          "metadata_sha256": "a0d95d6242caa676afa8eab55c0069f1cff235a47ae661aefea685943d12b763",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "tokenizers==0.21.0"
+        },
+        {
+          "name": "torch",
+          "version": "2.5.0+cu118",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/torch-2.5.0+cu118.dist-info/METADATA",
+          "metadata_sha256": "8d0da11039069b26c97084488f678ceec9769e3d6a242ebd751682676278d566",
+          "requires_python": ">=3.8.0",
+          "requested": true,
+          "requirement": "torch==2.5.0+cu118"
+        },
+        {
+          "name": "torchaudio",
+          "version": "2.5.0+cu118",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/torchaudio-2.5.0+cu118.dist-info/METADATA",
+          "metadata_sha256": "9a560f942520a79d90fc40880bf8f2809fdf74cb261e161889c989acfd4d6b6c",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "torchaudio==2.5.0+cu118"
+        },
+        {
+          "name": "torchmetrics",
+          "version": "0.10.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/torchmetrics-0.10.3.dist-info/METADATA",
+          "metadata_sha256": "bdc587a1dcbc3a0f1320bca67aa4287ab621571849f087deaffd77b927e2a469",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "torchmetrics==0.10.3"
+        },
+        {
+          "name": "torchvision",
+          "version": "0.20.0+cu118",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/torchvision-0.20.0+cu118.dist-info/METADATA",
+          "metadata_sha256": "e3c09e024b4fdbd11531db1b69ce4c73a45b477f3299f2b9515c7921ab3d784c",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "torchvision==0.20.0+cu118"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.67.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tqdm-4.67.1.dist-info/METADATA",
+          "metadata_sha256": "688a1632df525a198fec52dcfefb1246d31eacee9c035aacac2d7eaf8d8ff669",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "tqdm==4.67.1"
+        },
+        {
+          "name": "tqdm-multiprocess",
+          "version": "0.0.11",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tqdm_multiprocess-0.0.11.dist-info/METADATA",
+          "metadata_sha256": "0655882855483f57aa4dc882f4924ed79552a0631fef433d9d6016bbc3a2abae",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "tqdm-multiprocess==0.0.11"
+        },
+        {
+          "name": "transformers",
+          "version": "4.49.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/transformers-4.49.0.dist-info/METADATA",
+          "metadata_sha256": "2069c9cdb987f809891bf7faae351ccabf3a98f806514c5abcbebcd7c82e8a90",
+          "requires_python": ">=3.9.0",
+          "requested": true,
+          "requirement": "transformers==4.49.0"
+        },
+        {
+          "name": "triton",
+          "version": "3.1.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/triton-3.1.0.dist-info/METADATA",
+          "metadata_sha256": "8deccdccfccec3b437662f38eb4ffe3a902ad90ee6c120958807684bb85bb51e",
+          "requires_python": null,
+          "requested": false,
+          "requirement": "triton==3.1.0"
+        },
+        {
+          "name": "typepy",
+          "version": "1.3.4",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/typepy-1.3.4.dist-info/METADATA",
+          "metadata_sha256": "029225326bd71e158168a64dbbc5fcad8651d6bd7a72ac39df899d5f50804081",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "typepy==1.3.4"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.12.2",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/typing_extensions-4.12.2.dist-info/METADATA",
+          "metadata_sha256": "05e51021af1c9d86eb8d6c7e37c4cece733d5065b91a6d8389c5690ed440f16d",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "typing_extensions==4.12.2"
+        },
+        {
+          "name": "tzdata",
+          "version": "2025.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/tzdata-2025.1.dist-info/METADATA",
+          "metadata_sha256": "27f6450888efd4a6e8eca4831457adf1634f13631bf113f068dd46f6131cac2a",
+          "requires_python": ">=2",
+          "requested": true,
+          "requirement": "tzdata==2025.1"
+        },
+        {
+          "name": "unbabel-comet",
+          "version": "2.2.4",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/unbabel_comet-2.2.4.dist-info/METADATA",
+          "metadata_sha256": "ab781d316ae79a25fe3e19ff849c2f4bf8713ab51c7776a0d3fb4cb39090ad73",
+          "requires_python": ">=3.8.0,<4.0.0",
+          "requested": true,
+          "requirement": "unbabel-comet==2.2.4"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.3.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/urllib3-2.3.0.dist-info/METADATA",
+          "metadata_sha256": "aae49d343a16a1a1bb89d2a9aabd7fd8de767d405fc53b627e93f7b287cdc006",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "urllib3==2.3.0"
+        },
+        {
+          "name": "wheel",
+          "version": "0.48.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/wheel-0.48.0.dist-info/METADATA",
+          "metadata_sha256": "e702fede719fefbb8accad64c01c78efe8d7efea27a7dcef3423f83ffaadfc48",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "wheel==0.48.0"
+        },
+        {
+          "name": "word2number",
+          "version": "1.1",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/word2number-1.1.dist-info/METADATA",
+          "metadata_sha256": "4d5e78784812957197b7cda5e918a8e645bebced35d65bfcc15f18ccf3a39cd4",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "word2number==1.1"
+        },
+        {
+          "name": "xxhash",
+          "version": "3.5.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/xxhash-3.5.0.dist-info/METADATA",
+          "metadata_sha256": "68e84005a7262caefb6cdbe89b8a0a0034fdfa770a48d4d3152a60fd6e02e3ad",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "xxhash==3.5.0"
+        },
+        {
+          "name": "yarl",
+          "version": "1.18.3",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/yarl-1.18.3.dist-info/METADATA",
+          "metadata_sha256": "b82c3733df017aadf967fa1a6f3763bc97ce5551ec50a40b2641c5625b0b3804",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "yarl==1.18.3"
+        },
+        {
+          "name": "zstandard",
+          "version": "0.23.0",
+          "metadata_path": "/data6t/hpk/sdc_env/lib/python3.11/site-packages/zstandard-0.23.0.dist-info/METADATA",
+          "metadata_sha256": "c7305bc6589a6d264640d135b5dc9704247cf8063a41d653f35285b568428e01",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "zstandard==0.23.0"
+        }
+      ]
+    },
+    "sglang_env": {
+      "path": "/data6t/hpk/sglang_env",
+      "pyvenv_cfg": "home = /usr/local/bin\ninclude-system-site-packages = false\nversion = 3.11.7\nexecutable = /usr/local/bin/python3.11\ncommand = /usr/local/bin/python3 -m venv /data6t/hpk/sglang_env\n",
+      "python_symlink": "/usr/local/bin/python3",
+      "torch_version_source": {
+        "__version__": "2.11.0+cu130",
+        "cuda": "13.0",
+        "hip": null
+      },
+      "package_count": 209,
+      "packages": [
+        {
+          "name": "aiohappyeyeballs",
+          "version": "2.7.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/aiohappyeyeballs-2.7.1.dist-info/METADATA",
+          "metadata_sha256": "e68d1bf48aec9dcc2767343dedec25e12860085cba180e10bc3d3bdd031602ba",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "aiohappyeyeballs==2.7.1"
+        },
+        {
+          "name": "aiohttp",
+          "version": "3.14.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/aiohttp-3.14.3.dist-info/METADATA",
+          "metadata_sha256": "287d4346fb85cdf58dae89ac33639bef485653990a19af9bcd7d39e47e54ea1b",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "aiohttp==3.14.3"
+        },
+        {
+          "name": "aiosignal",
+          "version": "1.4.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/METADATA",
+          "metadata_sha256": "09247ef1da8bc696728d47130e702e4307f6f7d101d6c485bff9f3a71ce7008d",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "aiosignal==1.4.0"
+        },
+        {
+          "name": "airportsdata",
+          "version": "20260905",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/airportsdata-20260905.dist-info/METADATA",
+          "metadata_sha256": "4cbf5f83da0ad341fe4e3ef60678a968abdc4b9d5b69a1e5dcbc483ed9638b0a",
+          "requires_python": ">=3.11",
+          "requested": true,
+          "requirement": "airportsdata==20260905"
+        },
+        {
+          "name": "annotated-doc",
+          "version": "0.0.5",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/annotated_doc-0.0.5.dist-info/METADATA",
+          "metadata_sha256": "8c24d70c5d9153d22123353a906042fd7603df2d15c2196290b0f8a962558c46",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "annotated-doc==0.0.5"
+        },
+        {
+          "name": "annotated-types",
+          "version": "0.8.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/annotated_types-0.8.0.dist-info/METADATA",
+          "metadata_sha256": "614985b278f601b8ef863f82783b991cc3ada4b89f592eb71c7c48c5f2ef2298",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "annotated-types==0.8.0"
+        },
+        {
+          "name": "anthropic",
+          "version": "1.8.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/anthropic-1.8.0.dist-info/METADATA",
+          "metadata_sha256": "e08474b6d55abd6ca03ec3a2abef0aced3496c232287b9f7388601ac31df0adf",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "anthropic==1.8.0"
+        },
+        {
+          "name": "anyio",
+          "version": "4.15.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/anyio-4.15.1.dist-info/METADATA",
+          "metadata_sha256": "043aecb571af7189e8a6c528f5d8e32545f1b2cdfaaf761d51e6d5b67ea3ca81",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "anyio==4.15.1"
+        },
+        {
+          "name": "apache-tvm-ffi",
+          "version": "0.1.9",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/apache_tvm_ffi-0.1.9.dist-info/METADATA",
+          "metadata_sha256": "95843817ceddcf59879e1b88351edce192d3aae3559d472e5d29f5c23ab9b480",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "apache-tvm-ffi==0.1.9"
+        },
+        {
+          "name": "asttokens",
+          "version": "3.0.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/asttokens-3.0.2.dist-info/METADATA",
+          "metadata_sha256": "8b3567b29654e6e9a60ab50fde2c317899152790acadaab7868a708bf931c3d3",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "asttokens==3.0.2"
+        },
+        {
+          "name": "attrs",
+          "version": "26.1.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/attrs-26.1.0.dist-info/METADATA",
+          "metadata_sha256": "4cd40e690f23bf37cbcad34efd6758e062df1df07c86833f7e3ce95bf1fa38cc",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "attrs==26.1.0"
+        },
+        {
+          "name": "blobfile",
+          "version": "3.0.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/blobfile-3.0.0.dist-info/METADATA",
+          "metadata_sha256": "79a7732ed7d83494cfeaa0c4b9c0f0d663c30e531fd1058dff49e729f1e4bfdb",
+          "requires_python": ">=3.8.0",
+          "requested": true,
+          "requirement": "blobfile==3.0.0"
+        },
+        {
+          "name": "build",
+          "version": "1.6.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/build-1.6.1.dist-info/METADATA",
+          "metadata_sha256": "f3623590844a25dcf308a71a988c73e293b7ef779a1f43acb83ad1be218d61a0",
+          "requires_python": ">= 3.10",
+          "requested": true,
+          "requirement": "build==1.6.1"
+        },
+        {
+          "name": "certifi",
+          "version": "2026.7.22",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/certifi-2026.7.22.dist-info/METADATA",
+          "metadata_sha256": "ef5af1638fbb23676ac3c5777dfcfc2cd9c348fe4172ed5ba3d277655b248090",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "certifi==2026.7.22"
+        },
+        {
+          "name": "cffi",
+          "version": "2.1.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cffi-2.1.1.dist-info/METADATA",
+          "metadata_sha256": "558bafb9093a8e790175d9ecff9688382981d744877dad86fd6770db0f4dc918",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "cffi==2.1.1"
+        },
+        {
+          "name": "charset-normalizer",
+          "version": "3.5.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/charset_normalizer-3.5.1.dist-info/METADATA",
+          "metadata_sha256": "955c93827d59f1280f6d6a76b1e11bfb999cc65a55df83a6f9b28b7bc0e467f6",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "charset-normalizer==3.5.1"
+        },
+        {
+          "name": "click",
+          "version": "8.5.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/click-8.5.0.dist-info/METADATA",
+          "metadata_sha256": "e87bce0bd194de70dfb8e708e0a6b0483009f25611804eaf87bfeb63e6c20501",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "click==8.5.0"
+        },
+        {
+          "name": "cloudpickle",
+          "version": "3.1.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cloudpickle-3.1.2.dist-info/METADATA",
+          "metadata_sha256": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "cloudpickle==3.1.2"
+        },
+        {
+          "name": "compressed-tensors",
+          "version": "0.18.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/compressed_tensors-0.18.0.dist-info/METADATA",
+          "metadata_sha256": "776328444d34daef5b2e9b9695eefa60bb6edd50f56dcfc8f7b5a6045c801790",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "compressed-tensors==0.18.0"
+        },
+        {
+          "name": "cryptography",
+          "version": "50.0.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cryptography-50.0.1.dist-info/METADATA",
+          "metadata_sha256": "8e9b5570da4686848ee5c6bb83fffc224bcddf9793136731dd050ce0c05fffe2",
+          "requires_python": ">=3.9, !=3.9.0, !=3.9.1",
+          "requested": true,
+          "requirement": "cryptography==50.0.1"
+        },
+        {
+          "name": "cuda-bindings",
+          "version": "13.4.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cuda_bindings-13.4.3.dist-info/METADATA",
+          "metadata_sha256": "175428e14e19ae8e50ca18794ddd7e9f1992ac1d8421250338d78b43694d89a3",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "cuda-bindings==13.4.3"
+        },
+        {
+          "name": "cuda-core",
+          "version": "1.2.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cuda_core-1.2.1.dist-info/METADATA",
+          "metadata_sha256": "55906da8fd9690a1c9a51d5b7e0146594e276f16209a40b42c258dc9b6176d93",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "cuda-core==1.2.1"
+        },
+        {
+          "name": "cuda-pathfinder",
+          "version": "1.8.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cuda_pathfinder-1.8.2.dist-info/METADATA",
+          "metadata_sha256": "19df13cc87ea2247807ab83827a2594584fe38bc4a860ce318a0feccaba2b742",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "cuda-pathfinder==1.8.2"
+        },
+        {
+          "name": "cuda-python",
+          "version": "13.4.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cuda_python-13.4.1.dist-info/METADATA",
+          "metadata_sha256": "4a49c0acdbf1ef7539fa06f731c0e3e3727f300066c18b63de0e8f2a4876e33d",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "cuda-python==13.4.1"
+        },
+        {
+          "name": "cuda-tile",
+          "version": "1.6.0rc5",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cuda_tile-1.6.0rc5.dist-info/METADATA",
+          "metadata_sha256": "0116516ff71be6c0c742d5e176fc75e8aee54fc23832263b196f7a14e6f4afdb",
+          "requires_python": "<3.15,>=3.10",
+          "requested": true,
+          "requirement": "cuda-tile==1.6.0rc5"
+        },
+        {
+          "name": "cuda-toolkit",
+          "version": "13.0.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cuda_toolkit-13.0.2.dist-info/METADATA",
+          "metadata_sha256": "711ac5eb7ce4c56f087d843816fc463c1dcd08443f8cc1e63aa916d3dc84abbf",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "cuda-toolkit==13.0.2"
+        },
+        {
+          "name": "Cython",
+          "version": "3.3.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/cython-3.3.0.dist-info/METADATA",
+          "metadata_sha256": "be89f94f60c36f2c8a311112be29389813e2022f299888676e8a59332b2b7b2f",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "Cython==3.3.0"
+        },
+        {
+          "name": "datasets",
+          "version": "5.0.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/datasets-5.0.1.dist-info/METADATA",
+          "metadata_sha256": "66ad795b9be09559d4bacbe66615bd2ee0cfe47a8140ab58cdb3122e457c57b5",
+          "requires_python": ">=3.10.0",
+          "requested": true,
+          "requirement": "datasets==5.0.1"
+        },
+        {
+          "name": "dill",
+          "version": "0.4.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/dill-0.4.1.dist-info/METADATA",
+          "metadata_sha256": "040d6c84eddf29c8c14dc2aef214962a919803f557243824dd4f8aa3b49e3868",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "dill==0.4.1"
+        },
+        {
+          "name": "diskcache",
+          "version": "5.6.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/diskcache-5.6.3.dist-info/METADATA",
+          "metadata_sha256": "6fc70cff43a3c6666531e6c268e90059fb93ae58aed708163c0ceecab24dbaef",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "diskcache==5.6.3"
+        },
+        {
+          "name": "distro",
+          "version": "1.9.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/distro-1.9.0.dist-info/METADATA",
+          "metadata_sha256": "31632ab2de5591131091b3397bdcdf797718579d85a75186f06839dd0c09e81d",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "distro==1.9.0"
+        },
+        {
+          "name": "docstring_parser",
+          "version": "0.18.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/docstring_parser-0.18.0.dist-info/METADATA",
+          "metadata_sha256": "cbc42027997fd4b194ae5fd064a4d1e57b92976941d0c26d369561a7c016a333",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "docstring_parser==0.18.0"
+        },
+        {
+          "name": "easydict",
+          "version": "1.13",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/easydict-1.13.dist-info/METADATA",
+          "metadata_sha256": "60fae9c1fdf48a3cc9001b20e83fa05488236559a740f87f1a0801da26da9416",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "easydict==1.13"
+        },
+        {
+          "name": "einops",
+          "version": "0.9.0.dev0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/einops-0.9.0.dev0.dist-info/METADATA",
+          "metadata_sha256": "e07c318cca89789f74249ec09666cef43ee123468048a919924ab4cf07999ada",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "einops==0.9.0.dev0"
+        },
+        {
+          "name": "executing",
+          "version": "2.2.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/executing-2.2.1.dist-info/METADATA",
+          "metadata_sha256": "d7586d1ae225bee126c4237eb0c4d7699a8580b81eb558cc500c263d29a633ff",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "executing==2.2.1"
+        },
+        {
+          "name": "fastapi",
+          "version": "0.141.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/fastapi-0.141.1.dist-info/METADATA",
+          "metadata_sha256": "1010c29547b4026bdb3cd1c406e0570b9d79bb448b5a61fa4d5bb5a5eb0b752c",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "fastapi==0.141.1"
+        },
+        {
+          "name": "filelock",
+          "version": "4.0.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/filelock-4.0.3.dist-info/METADATA",
+          "metadata_sha256": "fa0a740d562d0e4ba725336197943ce90f5b13e4c5d981c289c03fe0760e6446",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "filelock==4.0.3"
+        },
+        {
+          "name": "flash-attn-4",
+          "version": "4.0.0b15",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/flash_attn_4-4.0.0b15.dist-info/METADATA",
+          "metadata_sha256": "25cd09a8b758d59279c4e0b651fd932eea6d6e65ff86246e4c4aaca139175621",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "flash-attn-4==4.0.0b15"
+        },
+        {
+          "name": "flashinfer-cubin",
+          "version": "0.6.11.post1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/flashinfer_cubin-0.6.11.post1.dist-info/METADATA",
+          "metadata_sha256": "54bbbadd82d15fd4ecb4a653079870631e044a014e3b8bf66a0670caf30d261e",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "flashinfer-cubin==0.6.11.post1"
+        },
+        {
+          "name": "flashinfer-python",
+          "version": "0.6.11.post1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/flashinfer_python-0.6.11.post1.dist-info/METADATA",
+          "metadata_sha256": "fb26d50b780c2694dd5267bfb3a63bf9679f8514b0c3d5cc2ef778717d91e3b7",
+          "requires_python": "<4.0,>=3.10",
+          "requested": true,
+          "requirement": "flashinfer-python==0.6.11.post1"
+        },
+        {
+          "name": "frozenlist",
+          "version": "1.8.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/frozenlist-1.8.0.dist-info/METADATA",
+          "metadata_sha256": "946c22dc9f7e2c76f2d698f00a4306dbe49a820e2b3f1a0e22fe5286cbec35f1",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "frozenlist==1.8.0"
+        },
+        {
+          "name": "fsspec",
+          "version": "2026.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/fsspec-2026.6.0.dist-info/METADATA",
+          "metadata_sha256": "20c85c024a69a059237c3a7985d381a3745017ae1d634c554b0c5901dde81095",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "fsspec==2026.6.0"
+        },
+        {
+          "name": "gguf",
+          "version": "0.19.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/gguf-0.19.0.dist-info/METADATA",
+          "metadata_sha256": "c6ed6e4d4dbb4b46f32855b4189599c568d5617a012345aa9249b3acf7204a03",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "gguf==0.19.0"
+        },
+        {
+          "name": "grpcio",
+          "version": "1.84.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/grpcio-1.84.0.dist-info/METADATA",
+          "metadata_sha256": "ac85e3d2b9220d642241116c6dd46bdc7e76d43393124a91dfff90f9aaa36529",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "grpcio==1.84.0"
+        },
+        {
+          "name": "grpcio-health-checking",
+          "version": "1.82.0rc2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/grpcio_health_checking-1.82.0rc2.dist-info/METADATA",
+          "metadata_sha256": "f86ea236851775ac24cf29a8b9ba624b9402f174c2c0093b1131b28c91094e8c",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "grpcio-health-checking==1.82.0rc2"
+        },
+        {
+          "name": "grpcio-reflection",
+          "version": "1.82.0rc2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/grpcio_reflection-1.82.0rc2.dist-info/METADATA",
+          "metadata_sha256": "77cb7d391fd036fe26d6cbc1137792311fc649ecc86daf4824baa43d04ed5ecc",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "grpcio-reflection==1.82.0rc2"
+        },
+        {
+          "name": "h11",
+          "version": "0.16.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA",
+          "metadata_sha256": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "h11==0.16.0"
+        },
+        {
+          "name": "hf-xet",
+          "version": "1.7.0.dev1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/hf_xet-1.7.0.dev1.dist-info/METADATA",
+          "metadata_sha256": "7edc86ce11aaca7a8e643a2777a5f8e5a29bb98738475ccfeebc7864e55e28f9",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "hf-xet==1.7.0.dev1"
+        },
+        {
+          "name": "httpcore",
+          "version": "1.0.9",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/httpcore-1.0.9.dist-info/METADATA",
+          "metadata_sha256": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "httpcore==1.0.9"
+        },
+        {
+          "name": "httpcore2",
+          "version": "2.13.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/httpcore2-2.13.1.dist-info/METADATA",
+          "metadata_sha256": "37a0ea0674e98b7c3a1f99c17d9bb5457de27a0f93c8b6560c9d17d525139abb",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "httpcore2==2.13.1"
+        },
+        {
+          "name": "httpx",
+          "version": "0.28.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/httpx-0.28.1.dist-info/METADATA",
+          "metadata_sha256": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "httpx==0.28.1"
+        },
+        {
+          "name": "httpx2",
+          "version": "2.13.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/httpx2-2.13.1.dist-info/METADATA",
+          "metadata_sha256": "b75b03a003b5593e000907cf7239fcc3f688b8f17db4ecff883d11221ea988fc",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "httpx2==2.13.1"
+        },
+        {
+          "name": "huggingface_hub",
+          "version": "1.33.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/huggingface_hub-1.33.0.dist-info/METADATA",
+          "metadata_sha256": "bee565776d66f486d224f74024b656a69ed42e2639d80b18811fca4365adc42e",
+          "requires_python": ">=3.10.0",
+          "requested": true,
+          "requirement": "huggingface_hub==1.33.0"
+        },
+        {
+          "name": "humming-kernels",
+          "version": "0.1.12",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/humming_kernels-0.1.12.dist-info/METADATA",
+          "metadata_sha256": "347b64ca0bf34125f8b31324be34bad33ad53f3a755ce031e886785aa13845ee",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "humming-kernels==0.1.12"
+        },
+        {
+          "name": "idna",
+          "version": "3.20",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/idna-3.20.dist-info/METADATA",
+          "metadata_sha256": "dbd8c14c1e4ca1e0c9824a6dbc7cbbf78884f38eb52d91148cd3025f671e4b85",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "idna==3.20"
+        },
+        {
+          "name": "interegular",
+          "version": "0.3.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/interegular-0.3.3.dist-info/METADATA",
+          "metadata_sha256": "c7598668f970b37c6d21612cc2abc9253156bf8b5c3905524793ed9af309acb3",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "interegular==0.3.3"
+        },
+        {
+          "name": "ipython",
+          "version": "9.17.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/ipython-9.17.1.dist-info/METADATA",
+          "metadata_sha256": "e78cb2a71fde4012b32de9b2db8d3c50ba618a1bb1975acc1bf107453365a1be",
+          "requires_python": ">=3.11",
+          "requested": true,
+          "requirement": "ipython==9.17.1"
+        },
+        {
+          "name": "ipython_pygments_lexers",
+          "version": "1.1.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/METADATA",
+          "metadata_sha256": "6b38c0946bdbc4778f4e38e2298547cbd7d13aeba9979ec4e4a412eabfbdfadb",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "ipython_pygments_lexers==1.1.1"
+        },
+        {
+          "name": "jedi",
+          "version": "0.20.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/jedi-0.20.0.dist-info/METADATA",
+          "metadata_sha256": "436bd0fb249b82dee15e85e2fb91d08d8e797481a16af48a725b8e4fb5340478",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "jedi==0.20.0"
+        },
+        {
+          "name": "Jinja2",
+          "version": "3.1.6",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA",
+          "metadata_sha256": "68c5548fb67c4132a13898d9b31ec50c6bea2abdd915d921f214355c3a6499c8",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "Jinja2==3.1.6"
+        },
+        {
+          "name": "jiter",
+          "version": "0.17.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/jiter-0.17.0.dist-info/METADATA",
+          "metadata_sha256": "738fc5b25c7cbaf81392886a95661322888c5691205b57a0975a1da1f62e3ea7",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "jiter==0.17.0"
+        },
+        {
+          "name": "jsonschema",
+          "version": "4.26.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/METADATA",
+          "metadata_sha256": "05b189866ca98a96da3934bf6b83687ced3ff85325273b77e16b705f6d8b26d2",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "jsonschema==4.26.0"
+        },
+        {
+          "name": "jsonschema-specifications",
+          "version": "2025.9.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA",
+          "metadata_sha256": "35abd41757f32b4ea24756920ded47b70173d77cbc052a5a6d3ab583b2e8d89d",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "jsonschema-specifications==2025.9.1"
+        },
+        {
+          "name": "kernels",
+          "version": "0.14.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/kernels-0.14.1.dist-info/METADATA",
+          "metadata_sha256": "e463c9751a2f83b2b13461d022478c64f63833dadf30f969dc7fc1211937ebf3",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "kernels==0.14.1"
+        },
+        {
+          "name": "kernels-data",
+          "version": "0.16.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/kernels_data-0.16.2.dist-info/METADATA",
+          "metadata_sha256": "4121bb2dc6203da4193bdb5d6845648352eaab8358744ac2fbd95ded341a9fce",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "kernels-data==0.16.2"
+        },
+        {
+          "name": "lark",
+          "version": "1.3.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/lark-1.3.1.dist-info/METADATA",
+          "metadata_sha256": "730d3f056045a9096bc0a65e4faccae53fe7f3634055174d4b8245cd19cb4cde",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "lark==1.3.1"
+        },
+        {
+          "name": "llguidance",
+          "version": "0.7.30",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/llguidance-0.7.30.dist-info/METADATA",
+          "metadata_sha256": "2757077b7cdabb6d6bd370ad9c5e2a9bffd765954d9518fe1578b73615bdedcc",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "llguidance==0.7.30"
+        },
+        {
+          "name": "llvmlite",
+          "version": "0.47.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/llvmlite-0.47.0.dist-info/METADATA",
+          "metadata_sha256": "e7faa0490feb9f7afd67d595cfc4a8e8eef408e4604c1e4e82731efad7e4ea4e",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "llvmlite==0.47.0"
+        },
+        {
+          "name": "loguru",
+          "version": "0.7.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/loguru-0.7.3.dist-info/METADATA",
+          "metadata_sha256": "3a371f8b089014fdaee055edc440d448242847926ad67613621af402f9975fd9",
+          "requires_python": ">=3.5,<4.0",
+          "requested": true,
+          "requirement": "loguru==0.7.3"
+        },
+        {
+          "name": "lxml",
+          "version": "7.0.0b1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/lxml-7.0.0b1.dist-info/METADATA",
+          "metadata_sha256": "3f405ca120fec38d91b321057c685c8d4bc75253425e1d8e5c153df17c8e69db",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "lxml==7.0.0b1"
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "4.2.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/markdown_it_py-4.2.0.dist-info/METADATA",
+          "metadata_sha256": "72c36ff516755443b1ecb61e17b2567a990230b49a504b0eb0c42d5f82448a9c",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "markdown-it-py==4.2.0"
+        },
+        {
+          "name": "MarkupSafe",
+          "version": "3.0.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/markupsafe-3.0.3.dist-info/METADATA",
+          "metadata_sha256": "12b4cc61a7fa288cf7667ee3f213786d9619db57fb33ff6f934afbcb5c12ec81",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "MarkupSafe==3.0.3"
+        },
+        {
+          "name": "matplotlib-inline",
+          "version": "0.2.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/matplotlib_inline-0.2.2.dist-info/METADATA",
+          "metadata_sha256": "fedb3d587ec2d3fa4b0a81fd5353df697d2534c8ee714dbf050009afc60bcab7",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "matplotlib-inline==0.2.2"
+        },
+        {
+          "name": "mdurl",
+          "version": "0.1.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/mdurl-0.1.2.dist-info/METADATA",
+          "metadata_sha256": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "mdurl==0.1.2"
+        },
+        {
+          "name": "mistral_common",
+          "version": "1.12.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/mistral_common-1.12.0.dist-info/METADATA",
+          "metadata_sha256": "5a9b4b2cfb8ee8b4e2aae7f820f02f354d514a3af29bab4da9f7e0d829b2524d",
+          "requires_python": "<3.15,>=3.10.0",
+          "requested": true,
+          "requirement": "mistral_common==1.12.0"
+        },
+        {
+          "name": "ml_dtypes",
+          "version": "0.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/ml_dtypes-0.6.0.dist-info/METADATA",
+          "metadata_sha256": "363d582174259be78c619e314216fc8979e5a5ec245337ee236b244945df3f01",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "ml_dtypes==0.6.0"
+        },
+        {
+          "name": "modelscope",
+          "version": "1.40.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/modelscope-1.40.1.dist-info/METADATA",
+          "metadata_sha256": "977894e0aaa9699f111f5e0a30f633907e1626147f6d263b68c200039e3528a3",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "modelscope==1.40.1"
+        },
+        {
+          "name": "modelscope-hub",
+          "version": "0.4.5",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/modelscope_hub-0.4.5.dist-info/METADATA",
+          "metadata_sha256": "b948cfbbc086585dd8d7a1b923301b10e2c18091aa4843f7246b5e1d06d9f8ea",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "modelscope-hub==0.4.5"
+        },
+        {
+          "name": "mpmath",
+          "version": "1.3.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/mpmath-1.3.0.dist-info/METADATA",
+          "metadata_sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "mpmath==1.3.0"
+        },
+        {
+          "name": "msgspec",
+          "version": "0.21.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/msgspec-0.21.1.dist-info/METADATA",
+          "metadata_sha256": "1af055cfd85d7d0ab1505abdba5eaf8c1306ed143e7b2c2113fc0affebaf426d",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "msgspec==0.21.1"
+        },
+        {
+          "name": "multidict",
+          "version": "6.9.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/multidict-6.9.1.dist-info/METADATA",
+          "metadata_sha256": "b52756a8e05f6cf5e429cb0133ea395f252aee4a30b748506dd354a5ad2d4af2",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "multidict==6.9.1"
+        },
+        {
+          "name": "multiprocess",
+          "version": "0.70.19",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/multiprocess-0.70.19.dist-info/METADATA",
+          "metadata_sha256": "24146d46d724ce041d187426babb43dc5a6a4cd5d1acad0d7fc0d12693376fa5",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "multiprocess==0.70.19"
+        },
+        {
+          "name": "nccl4py",
+          "version": "0.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nccl4py-0.6.0.dist-info/METADATA",
+          "metadata_sha256": "c951c05a480f63ef2e61f4e359c358d1dfcc78e3be642d35ac2da5ea8e941e34",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "nccl4py==0.6.0"
+        },
+        {
+          "name": "nest-asyncio",
+          "version": "1.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nest_asyncio-1.6.0.dist-info/METADATA",
+          "metadata_sha256": "7f7b98f9e1a28a9597d70df9158175a22d05446ce4b328908d920e7293d35bd2",
+          "requires_python": ">=3.5",
+          "requested": true,
+          "requirement": "nest-asyncio==1.6.0"
+        },
+        {
+          "name": "networkx",
+          "version": "3.6.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/networkx-3.6.1.dist-info/METADATA",
+          "metadata_sha256": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a",
+          "requires_python": "!=3.14.1,>=3.11",
+          "requested": true,
+          "requirement": "networkx==3.6.1"
+        },
+        {
+          "name": "ninja",
+          "version": "1.13.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/ninja-1.13.2.dist-info/METADATA",
+          "metadata_sha256": "9628f3ee4355eb4805e7afdb4b01e20129fb76dfb76e6f8c4ce86150842d611c",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "ninja==1.13.2"
+        },
+        {
+          "name": "numba",
+          "version": "0.65.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/numba-0.65.1.dist-info/METADATA",
+          "metadata_sha256": "9ab3a5418a6beb8cbc48e9f8e1866bbba6d676140c4190df657926aad486ea0d",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "numba==0.65.1"
+        },
+        {
+          "name": "numpy",
+          "version": "2.3.5",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/numpy-2.3.5.dist-info/METADATA",
+          "metadata_sha256": "6002f29765e5bc1a3be4a1b92ed56b64968a0fecba73e7f81cd536d0c40f4fa3",
+          "requires_python": ">=3.11",
+          "requested": true,
+          "requirement": "numpy==2.3.5"
+        },
+        {
+          "name": "nvidia-cublas",
+          "version": "13.1.0.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cublas-13.1.0.3.dist-info/METADATA",
+          "metadata_sha256": "561b0e547a2da463a0a6e4f7715fb4965c578627faa5790be12db26e5c7c9b03",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cublas==13.1.0.3"
+        },
+        {
+          "name": "nvidia-cuda-cccl",
+          "version": "13.3.4.3.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_cccl-13.3.4.3.1.dist-info/METADATA",
+          "metadata_sha256": "50a74195e2d533c4475dd129ffda9b8f678d21eb527f8c1176139bbc88b344e3",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-cccl==13.3.4.3.1"
+        },
+        {
+          "name": "nvidia-cuda-crt",
+          "version": "13.4.92",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_crt-13.4.92.dist-info/METADATA",
+          "metadata_sha256": "b531c5f031e3b04f9d1547eafc92d1c02d3eae5124c12e8fc0b14124eb76bb13",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-crt==13.4.92"
+        },
+        {
+          "name": "nvidia-cuda-cupti",
+          "version": "13.0.85",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_cupti-13.0.85.dist-info/METADATA",
+          "metadata_sha256": "ae42b56aa16feaa9994af204b6c82ac546fed7d67cf584cc10d1f2b7119b5eac",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-cupti==13.0.85"
+        },
+        {
+          "name": "nvidia-cuda-nvcc",
+          "version": "13.4.92",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_nvcc-13.4.92.dist-info/METADATA",
+          "metadata_sha256": "7613334339f4c242c0144afc140a8f57a13fb3d3103a85b42f864c6709648f35",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-nvcc==13.4.92"
+        },
+        {
+          "name": "nvidia-cuda-nvdisasm",
+          "version": "13.4.92",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_nvdisasm-13.4.92.dist-info/METADATA",
+          "metadata_sha256": "f644c8d6c9dad02c5c23bbab043b6a13e14bade5219962168261e4c31feabc49",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-nvdisasm==13.4.92"
+        },
+        {
+          "name": "nvidia-cuda-nvrtc",
+          "version": "13.0.88",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_nvrtc-13.0.88.dist-info/METADATA",
+          "metadata_sha256": "27505676fa8577b448021d935306228d06c6236b2bf5247c148425e5130ad4c8",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-nvrtc==13.0.88"
+        },
+        {
+          "name": "nvidia-cuda-runtime",
+          "version": "13.0.96",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cuda_runtime-13.0.96.dist-info/METADATA",
+          "metadata_sha256": "30699e3ca76f6f41f5252e7a0fce2c2d303c465b86c1b022e03a2799bd15098b",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cuda-runtime==13.0.96"
+        },
+        {
+          "name": "nvidia-cudnn-cu13",
+          "version": "9.19.0.56",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cudnn_cu13-9.19.0.56.dist-info/METADATA",
+          "metadata_sha256": "6f751e0e3c731f631a01dc06769d131fda17c702291ab1575f18da57745ae3b2",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cudnn-cu13==9.19.0.56"
+        },
+        {
+          "name": "nvidia-cudnn-frontend",
+          "version": "1.28.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cudnn_frontend-1.28.0.dist-info/METADATA",
+          "metadata_sha256": "de01d27226a2adee33a1d6c3bbe54fadbae97fa9d8a85f75fa77d32cae7e9996",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "nvidia-cudnn-frontend==1.28.0"
+        },
+        {
+          "name": "nvidia-cufft",
+          "version": "12.0.0.61",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cufft-12.0.0.61.dist-info/METADATA",
+          "metadata_sha256": "f519e642db9f4983f5e24d131a52972210b3222800a07e099d40926d18d183d8",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cufft==12.0.0.61"
+        },
+        {
+          "name": "nvidia-cufile",
+          "version": "1.15.1.6",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cufile-1.15.1.6.dist-info/METADATA",
+          "metadata_sha256": "35ef649dd5370d74512351b45aa9ddc81715ae8c806326c2c5ec61d80dc97aca",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cufile==1.15.1.6"
+        },
+        {
+          "name": "nvidia-curand",
+          "version": "10.4.0.35",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_curand-10.4.0.35.dist-info/METADATA",
+          "metadata_sha256": "0a7d6e8b87aa972f3f2bc454f12fee898e8ef5d1a09d92b418acd38e8582076d",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-curand==10.4.0.35"
+        },
+        {
+          "name": "nvidia-cusolver",
+          "version": "12.0.4.66",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cusolver-12.0.4.66.dist-info/METADATA",
+          "metadata_sha256": "88d296b4407f82253bf358667db12776dcb521170c7ff5b8eff38eb272ff729f",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cusolver==12.0.4.66"
+        },
+        {
+          "name": "nvidia-cusparse",
+          "version": "12.6.3.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cusparse-12.6.3.3.dist-info/METADATA",
+          "metadata_sha256": "d7b8582e9cf38072a8bb9960822e89f41a64bc7f68995eec783304c828e9734e",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-cusparse==12.6.3.3"
+        },
+        {
+          "name": "nvidia-cusparselt-cu13",
+          "version": "0.8.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cusparselt_cu13-0.8.0.dist-info/METADATA",
+          "metadata_sha256": "72e9b5bb91a38047d99145a1a802ad947ff555431e3bf33751cb31a5fa91f6e2",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "nvidia-cusparselt-cu13==0.8.0"
+        },
+        {
+          "name": "nvidia-cutlass-dsl",
+          "version": "4.5.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cutlass_dsl-4.5.0.dist-info/METADATA",
+          "metadata_sha256": "42abc31d11fefb839818b82a9245ef2b15a271da81ae146b7d4007d71ab2ffa5",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "nvidia-cutlass-dsl==4.5.0"
+        },
+        {
+          "name": "nvidia-cutlass-dsl-libs-base",
+          "version": "4.5.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cutlass_dsl_libs_base-4.5.0.dist-info/METADATA",
+          "metadata_sha256": "97b58f27dd8d6092b543b33df05cf82803a7aea0b53bc956e472c49fd74dbf6c",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "nvidia-cutlass-dsl-libs-base==4.5.0"
+        },
+        {
+          "name": "nvidia-cutlass-dsl-libs-core",
+          "version": "4.6.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cutlass_dsl_libs_core-4.6.2.dist-info/METADATA",
+          "metadata_sha256": "515540bf051062a730a2be22c933c25a2fefbfc5880536bf2c64483691dc8733",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "nvidia-cutlass-dsl-libs-core==4.6.2"
+        },
+        {
+          "name": "nvidia-cutlass-dsl-libs-cu12",
+          "version": "4.6.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cutlass_dsl_libs_cu12-4.6.2.dist-info/METADATA",
+          "metadata_sha256": "5f20db1f539f289578c3f0b269f696cb83f4a4d93167bf58574c42a7cea4a8a7",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "nvidia-cutlass-dsl-libs-cu12==4.6.2"
+        },
+        {
+          "name": "nvidia-cutlass-dsl-libs-cu13",
+          "version": "4.6.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_cutlass_dsl_libs_cu13-4.6.2.dist-info/METADATA",
+          "metadata_sha256": "20ad977c34e6ba814652be93384f77cb2ec955bdbbeeccce19a224d39ea7f2a9",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "nvidia-cutlass-dsl-libs-cu13==4.6.2"
+        },
+        {
+          "name": "nvidia-mathdx",
+          "version": "25.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_mathdx-25.6.0.dist-info/METADATA",
+          "metadata_sha256": "1451b1e4b56e6397834d854a81090a9583b87da996eb7dcf307f1f41fe0c4b7b",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "nvidia-mathdx==25.6.0"
+        },
+        {
+          "name": "nvidia-ml-py",
+          "version": "13.615.71",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_ml_py-13.615.71.dist-info/METADATA",
+          "metadata_sha256": "df52f2f04ac78c5259e776be3194ae3bfee274cadc0623576be6a699621ef6a8",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "nvidia-ml-py==13.615.71"
+        },
+        {
+          "name": "nvidia-nccl-cu13",
+          "version": "2.28.9",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_nccl_cu13-2.28.9.dist-info/METADATA",
+          "metadata_sha256": "9fbf54b4aa156fef26145838fc99abb2024046e98a2776efbf4f5bc6bd242cb0",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-nccl-cu13==2.28.9"
+        },
+        {
+          "name": "nvidia-nvjitlink",
+          "version": "13.0.88",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_nvjitlink-13.0.88.dist-info/METADATA",
+          "metadata_sha256": "357d3afcf99126edd846988256b9b1a2b52b8693004cb9f117fa688890932d54",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-nvjitlink==13.0.88"
+        },
+        {
+          "name": "nvidia-nvshmem-cu13",
+          "version": "3.4.5",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_nvshmem_cu13-3.4.5.dist-info/METADATA",
+          "metadata_sha256": "825ae32b105cfd50f7b375b9132e551f24dc32896c67c425349f6565d3b3fe46",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-nvshmem-cu13==3.4.5"
+        },
+        {
+          "name": "nvidia-nvtx",
+          "version": "13.0.85",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_nvtx-13.0.85.dist-info/METADATA",
+          "metadata_sha256": "4777c4d7b040cdead515e13febe9da861052e4690bdfc2c67664b13aaf605be5",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-nvtx==13.0.85"
+        },
+        {
+          "name": "nvidia-nvvm",
+          "version": "13.4.92",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvidia_nvvm-13.4.92.dist-info/METADATA",
+          "metadata_sha256": "bef731c2b2f9188e62e6fcb5acfb19e32a8feed898bbea55cf47dd5c082e5947",
+          "requires_python": ">=3",
+          "requested": true,
+          "requirement": "nvidia-nvvm==13.4.92"
+        },
+        {
+          "name": "nvshmem4py-cu13",
+          "version": "0.4.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/nvshmem4py_cu13-0.4.0.dist-info/METADATA",
+          "metadata_sha256": "89edcf914f0467ba45454212546b3ca281de6cd5023070cff06b1f7f7c24f0a5",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "nvshmem4py-cu13==0.4.0"
+        },
+        {
+          "name": "openai",
+          "version": "2.6.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/openai-2.6.1.dist-info/METADATA",
+          "metadata_sha256": "6a55da43ce61efa69aa6c8a4d728c3a4e976d02e8fa8cbe565229e26aea91410",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "openai==2.6.1"
+        },
+        {
+          "name": "openai-harmony",
+          "version": "0.0.4",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/openai_harmony-0.0.4.dist-info/METADATA",
+          "metadata_sha256": "35b04c68df05d0eeef03ad550b9ec8a7a09ee1ac18935eb4b563f19ccb0e5952",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "openai-harmony==0.0.4"
+        },
+        {
+          "name": "orjson",
+          "version": "3.12.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/orjson-3.12.0.dist-info/METADATA",
+          "metadata_sha256": "3a04b81906c2ac8f535b0a4fb8371eea786718fbca08a75ff13f6c734f43b778",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "orjson==3.12.0"
+        },
+        {
+          "name": "outlines",
+          "version": "0.1.11",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/outlines-0.1.11.dist-info/METADATA",
+          "metadata_sha256": "f7423ac9279df728d633f03471967b918686e824a1d438939c6abe435b3f8de3",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "outlines==0.1.11"
+        },
+        {
+          "name": "outlines_core",
+          "version": "0.1.26",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/outlines_core-0.1.26.dist-info/METADATA",
+          "metadata_sha256": "60d99166b0160b2fc959c4d3b96b13cc3f6a66ef96766e49f094d3a252d18a03",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "outlines_core==0.1.26"
+        },
+        {
+          "name": "packaging",
+          "version": "26.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA",
+          "metadata_sha256": "70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "packaging==26.3"
+        },
+        {
+          "name": "pandas",
+          "version": "3.0.6",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pandas-3.0.6.dist-info/METADATA",
+          "metadata_sha256": "c2e8c472e1f49c30b7b00dc1cde8b8ed384b1b6d85b4d5ffe163e800e71dbc61",
+          "requires_python": ">=3.11",
+          "requested": true,
+          "requirement": "pandas==3.0.6"
+        },
+        {
+          "name": "parso",
+          "version": "0.8.7",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/parso-0.8.7.dist-info/METADATA",
+          "metadata_sha256": "2fd8c9f8209218163a6c086ba8075d177122430645fea770cc02c53cd426119d",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "parso==0.8.7"
+        },
+        {
+          "name": "partial-json-parser",
+          "version": "0.2.1.1.post7",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/partial_json_parser-0.2.1.1.post7.dist-info/METADATA",
+          "metadata_sha256": "138cea9c54eacf4ab2b6cfcdd017a5de60a9b73df5c7412dcf77e58e19a76448",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "partial-json-parser==0.2.1.1.post7"
+        },
+        {
+          "name": "pexpect",
+          "version": "4.9.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pexpect-4.9.0.dist-info/METADATA",
+          "metadata_sha256": "2d7c5ac5fdefde4a0194ec522fbcc0ca70e99e1a2a956eea444168f8591650aa",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "pexpect==4.9.0"
+        },
+        {
+          "name": "pillow",
+          "version": "12.3.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pillow-12.3.0.dist-info/METADATA",
+          "metadata_sha256": "8fc07146cab33ef7582361dab6eac596d340b03ec648f18217da7894f73838c8",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pillow==12.3.0"
+        },
+        {
+          "name": "pip",
+          "version": "26.2.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pip-26.2.1.dist-info/METADATA",
+          "metadata_sha256": "3a561005822841f2c45f442f6c7a7505172c8c376c9fe274d876c8ac912968cb",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pip==26.2.1"
+        },
+        {
+          "name": "prometheus_client",
+          "version": "0.26.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/prometheus_client-0.26.0.dist-info/METADATA",
+          "metadata_sha256": "ea4a4f111b1723da4c588baa002fe7b7886f0e8f653c4dd3d05738686ea85004",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "prometheus_client==0.26.0"
+        },
+        {
+          "name": "prompt_toolkit",
+          "version": "3.0.53",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/prompt_toolkit-3.0.53.dist-info/METADATA",
+          "metadata_sha256": "d04994e4401b88abf884ca54fb3b85e50a8b4fb1fde1ed7eb3ece9d8bf5459a9",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "prompt_toolkit==3.0.53"
+        },
+        {
+          "name": "propcache",
+          "version": "0.5.4",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/propcache-0.5.4.dist-info/METADATA",
+          "metadata_sha256": "6ed3bac0ad43050ceaf8bd09878ba3d673c94c4da0d4498f903f86c36cc6fb57",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "propcache==0.5.4"
+        },
+        {
+          "name": "protobuf",
+          "version": "6.33.6",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/protobuf-6.33.6.dist-info/METADATA",
+          "metadata_sha256": "6f3b31fd64380f5e60ed10f5a2954699bcc1f6266eb74316f0ba96702d30546f",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "protobuf==6.33.6"
+        },
+        {
+          "name": "psutil",
+          "version": "7.2.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/psutil-7.2.2.dist-info/METADATA",
+          "metadata_sha256": "525f8ba78523cf7bc3759d62a105e7c57fd679ea702402b9449fb0746aa0217f",
+          "requires_python": ">=3.6",
+          "requested": true,
+          "requirement": "psutil==7.2.2"
+        },
+        {
+          "name": "ptyprocess",
+          "version": "0.7.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/ptyprocess-0.7.0.dist-info/METADATA",
+          "metadata_sha256": "c3c2b96b5d9a55da5958c34d08c18a0849f56609026cc46d5c95b8b77fcf3e0c",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "ptyprocess==0.7.0"
+        },
+        {
+          "name": "pure_eval",
+          "version": "0.2.4",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pure_eval-0.2.4.dist-info/METADATA",
+          "metadata_sha256": "4fe70f69411b9963d7275084210743afa819c2350899a29150bc43b1abf105d0",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "pure_eval==0.2.4"
+        },
+        {
+          "name": "py-spy",
+          "version": "0.4.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/py_spy-0.4.2.dist-info/METADATA",
+          "metadata_sha256": "26aeb28846bd82f28093b6ee8ebccbab17abc89c4d33118ba092361fa0243b6a",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "py-spy==0.4.2"
+        },
+        {
+          "name": "pyarrow",
+          "version": "25.0.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pyarrow-25.0.1.dist-info/METADATA",
+          "metadata_sha256": "12ed8d0988a6f7153fec923ee47b7fc1d6134463a86b1b89fa36f24c250163ff",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pyarrow==25.0.1"
+        },
+        {
+          "name": "pybase64",
+          "version": "1.5.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pybase64-1.5.0.dist-info/METADATA",
+          "metadata_sha256": "bb6af428c6e97db231fae560df0ad2e97136b5855cabebfd003c01786a4d42ed",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pybase64==1.5.0"
+        },
+        {
+          "name": "pycountry",
+          "version": "26.2.16",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pycountry-26.2.16.dist-info/METADATA",
+          "metadata_sha256": "2e1290b19e66b7b1c4805214bdc22d84e8aa4ff28bd048059554e2432a791fad",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pycountry==26.2.16"
+        },
+        {
+          "name": "pycparser",
+          "version": "3.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pycparser-3.0.dist-info/METADATA",
+          "metadata_sha256": "f547a60b0ab54cc2f242213d1f87960ad80df7dd5dfeb98d17a444d48bfb6b93",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pycparser==3.0"
+        },
+        {
+          "name": "pycryptodomex",
+          "version": "3.23.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pycryptodomex-3.23.0.dist-info/METADATA",
+          "metadata_sha256": "bb4cf1a7d5bbc98ad4f475fa8b5c0c0597550a8173ef1a35baf76ad2b9dc68a9",
+          "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*",
+          "requested": true,
+          "requirement": "pycryptodomex==3.23.0"
+        },
+        {
+          "name": "pydantic",
+          "version": "2.14.0b2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pydantic-2.14.0b2.dist-info/METADATA",
+          "metadata_sha256": "68d1f52f47974c028f8039852c5016738c955b06e415f5e133b2e891ced1e412",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pydantic==2.14.0b2"
+        },
+        {
+          "name": "pydantic_core",
+          "version": "2.49.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pydantic_core-2.49.0.dist-info/METADATA",
+          "metadata_sha256": "0e3a5b872088367976ccce5bdd5b022da7bd9ab6af652c121f8efdc04331df48",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "pydantic_core==2.49.0"
+        },
+        {
+          "name": "pydantic-extra-types",
+          "version": "2.11.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pydantic_extra_types-2.11.1.dist-info/METADATA",
+          "metadata_sha256": "50031a8ca40aaf2c0155b132e2d376e03c5c50745a8dc46471c2eaba9f514447",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pydantic-extra-types==2.11.1"
+        },
+        {
+          "name": "Pygments",
+          "version": "2.21.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pygments-2.21.0.dist-info/METADATA",
+          "metadata_sha256": "1dde075570136774c706bf0009183a793fe0ee262e4a5590cc6eff8453eedd43",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "Pygments==2.21.0"
+        },
+        {
+          "name": "pyproject_hooks",
+          "version": "1.3.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pyproject_hooks-1.3.3.dist-info/METADATA",
+          "metadata_sha256": "844e375bb28dcbe42a0502fbd9428d9ba4669db25028ee7a7afaa8dd7ada2e00",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "pyproject_hooks==1.3.3"
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+          "metadata_sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+          "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",
+          "requested": true,
+          "requirement": "python-dateutil==2.9.0.post0"
+        },
+        {
+          "name": "python-multipart",
+          "version": "0.0.32",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/python_multipart-0.0.32.dist-info/METADATA",
+          "metadata_sha256": "e9d399d7dea5eddf0e4d24b5c24687a82e7e50bf2c2b30f8f8a06a64d887dd86",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "python-multipart==0.0.32"
+        },
+        {
+          "name": "PyYAML",
+          "version": "6.0.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+          "metadata_sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "PyYAML==6.0.3"
+        },
+        {
+          "name": "pyzmq",
+          "version": "27.2.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/pyzmq-27.2.0.dist-info/METADATA",
+          "metadata_sha256": "efca840a7cf3173e6ffce4c77e50b5b449a6c44388abc272bc3e82bb27e97043",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "pyzmq==27.2.0"
+        },
+        {
+          "name": "quack-kernels",
+          "version": "0.4.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/quack_kernels-0.4.1.dist-info/METADATA",
+          "metadata_sha256": "e476fc2ed7c542ce3ab0d13ce976bc822c102fb2a8242084fe839d60d6987da0",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "quack-kernels==0.4.1"
+        },
+        {
+          "name": "referencing",
+          "version": "0.37.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/referencing-0.37.0.dist-info/METADATA",
+          "metadata_sha256": "c93b00e6ab1524fd60848376604c189a114374776475c25a31d57be47b29de6a",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "referencing==0.37.0"
+        },
+        {
+          "name": "regex",
+          "version": "2026.9.10",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/regex-2026.9.10.dist-info/METADATA",
+          "metadata_sha256": "0ea2fa001b650382a8d968125230865955d559fbf1bd3d4064a665053620867f",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "regex==2026.9.10"
+        },
+        {
+          "name": "requests",
+          "version": "2.34.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/requests-2.34.2.dist-info/METADATA",
+          "metadata_sha256": "8c384ba3e979480faae2859d3c5e6c1276dd2c3616e322e124d52c8cfc556f27",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "requests==2.34.2"
+        },
+        {
+          "name": "rich",
+          "version": "15.0.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/rich-15.0.0.dist-info/METADATA",
+          "metadata_sha256": "fad34fc603fac4481bf81f8dd629492fc302c0ec31909c86644751512afb2e3b",
+          "requires_python": ">=3.9.0",
+          "requested": true,
+          "requirement": "rich==15.0.0"
+        },
+        {
+          "name": "rpds-py",
+          "version": "2026.6.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/rpds_py-2026.6.3.dist-info/METADATA",
+          "metadata_sha256": "f8be7b17da3980b2c48596941411a43c70ac41b1e2d530aa531f2c15eab2eb1c",
+          "requires_python": ">=3.11",
+          "requested": true,
+          "requirement": "rpds-py==2026.6.3"
+        },
+        {
+          "name": "safetensors",
+          "version": "0.9.0rc1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/safetensors-0.9.0rc1.dist-info/METADATA",
+          "metadata_sha256": "316c1456fe457d6350eec800c8f796966b73183f19ac7183d3b418451b3188d5",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "safetensors==0.9.0rc1"
+        },
+        {
+          "name": "scipy",
+          "version": "1.17.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/scipy-1.17.1.dist-info/METADATA",
+          "metadata_sha256": "7cdd5544eb610b86e000b6f0a21e86f84423faf0aacbb99990f3d41f25e1f314",
+          "requires_python": ">=3.11",
+          "requested": true,
+          "requirement": "scipy==1.17.1"
+        },
+        {
+          "name": "sentencepiece",
+          "version": "0.2.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sentencepiece-0.2.2.dist-info/METADATA",
+          "metadata_sha256": "bb49c79797fff1b8f3048efd4849d86dce4adbe26f7f3f0a5b37239a59d88ee8",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "sentencepiece==0.2.2"
+        },
+        {
+          "name": "setproctitle",
+          "version": "1.3.7",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/setproctitle-1.3.7.dist-info/METADATA",
+          "metadata_sha256": "f3aae6f59f0e0c2ae3378189d4399d7a4a25de58c774cdb423fbfa02a534d0aa",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "setproctitle==1.3.7"
+        },
+        {
+          "name": "setuptools",
+          "version": "81.0.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/setuptools-81.0.0.dist-info/METADATA",
+          "metadata_sha256": "e3ca2edbff500ebe5ba650aa6d8f10249fb4ceae266029b160ce7058ef40df15",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "setuptools==81.0.0"
+        },
+        {
+          "name": "sgl-deep-ep",
+          "version": "0.1.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sgl_deep_ep-0.1.2.dist-info/METADATA",
+          "metadata_sha256": "a786d137f5f7d45122e55e2c9e1748e1f1b93886fe060f59de43193e1f22cad2",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "sgl-deep-ep==0.1.2"
+        },
+        {
+          "name": "sgl-deep-gemm",
+          "version": "0.1.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sgl_deep_gemm-0.1.0.dist-info/METADATA",
+          "metadata_sha256": "ec570ba99649778b7ebcc1beecbac0d4b00fe524c348abcdf21be7b5927a837d",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "sgl-deep-gemm==0.1.0"
+        },
+        {
+          "name": "sglang",
+          "version": "0.5.12",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sglang-0.5.12.dist-info/METADATA",
+          "metadata_sha256": "ec0ad5097829fcb6b39bbeea823613a31ec166b2adca90424f35d768d5598e67",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "sglang==0.5.12"
+        },
+        {
+          "name": "sglang-kernel",
+          "version": "0.4.2.post2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sglang_kernel-0.4.2.post2.dist-info/METADATA",
+          "metadata_sha256": "2bf668889ea092987cd4987dbd6c69d57f827f9b009ce1a27e0b55de0eb03843",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "sglang-kernel==0.4.2.post2"
+        },
+        {
+          "name": "shellingham",
+          "version": "1.5.4",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/shellingham-1.5.4.dist-info/METADATA",
+          "metadata_sha256": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "shellingham==1.5.4"
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
+          "metadata_sha256": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+          "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",
+          "requested": true,
+          "requirement": "six==1.17.0"
+        },
+        {
+          "name": "smg-grpc-proto",
+          "version": "0.4.22",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/smg_grpc_proto-0.4.22.dist-info/METADATA",
+          "metadata_sha256": "32012bb92f1e9e4765b9cecbf5785bb0344d91c2331be35b25bd82a265783b8d",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "smg-grpc-proto==0.4.22"
+        },
+        {
+          "name": "smg-grpc-servicer",
+          "version": "0.13.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/smg_grpc_servicer-0.13.0.dist-info/METADATA",
+          "metadata_sha256": "cb44ae2b42344047e14c8978739aa26dd17e592501d2652ab7e1b4ef464e1b5f",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "smg-grpc-servicer==0.13.0"
+        },
+        {
+          "name": "sniffio",
+          "version": "1.3.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/METADATA",
+          "metadata_sha256": "0b318b57098edeccf585e60a889a6b6a7b5c4086f3a9aa62eff76a1d3cee12d9",
+          "requires_python": ">=3.7",
+          "requested": true,
+          "requirement": "sniffio==1.3.1"
+        },
+        {
+          "name": "soundfile",
+          "version": "0.13.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/soundfile-0.13.1.dist-info/METADATA",
+          "metadata_sha256": "0e4254c32f48852e0789e265aee10208a9bb778113ae8c5420d680393b7d32a1",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "soundfile==0.13.1"
+        },
+        {
+          "name": "stack-data",
+          "version": "0.6.3",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/stack_data-0.6.3.dist-info/METADATA",
+          "metadata_sha256": "f28a66f2adde54e7031355e09a166e437bc0d023a31c10c973ac494288ca4c6f",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "stack-data==0.6.3"
+        },
+        {
+          "name": "starlette",
+          "version": "1.7.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/starlette-1.7.0.dist-info/METADATA",
+          "metadata_sha256": "f7870fc19ab7c2e364887057340b9fb47e9bda74d24b06c58ca399494abfe019",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "starlette==1.7.0"
+        },
+        {
+          "name": "sympy",
+          "version": "1.14.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/sympy-1.14.0.dist-info/METADATA",
+          "metadata_sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "sympy==1.14.0"
+        },
+        {
+          "name": "tabulate",
+          "version": "0.10.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tabulate-0.10.0.dist-info/METADATA",
+          "metadata_sha256": "38dfc6db689745ff4c3890b3c30ef7e5d0b156fdbeeb765b9027fd917043d84b",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "tabulate==0.10.0"
+        },
+        {
+          "name": "tiktoken",
+          "version": "0.14.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tiktoken-0.14.0.dist-info/METADATA",
+          "metadata_sha256": "30086725221223f7a19463e71c0e9f79fe7aba9125b36632c00bf50a23fa968a",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tiktoken==0.14.0"
+        },
+        {
+          "name": "tilelang",
+          "version": "0.1.8",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tilelang-0.1.8.dist-info/METADATA",
+          "metadata_sha256": "424bee81ae375a4e4a1eb766f59916138b733b7db74da5e2055ca6965dbf7699",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tilelang==0.1.8"
+        },
+        {
+          "name": "timm",
+          "version": "1.0.16",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/timm-1.0.16.dist-info/METADATA",
+          "metadata_sha256": "ad5f79b43031a2e2358158f251a2be22e30cbe6cd6f5c33d0c4077aeb07be22f",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "timm==1.0.16"
+        },
+        {
+          "name": "tokenizers",
+          "version": "0.22.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tokenizers-0.22.2.dist-info/METADATA",
+          "metadata_sha256": "15a5ddaf489f592b77e0a934c0eeb46b51130a94064ca129232afdb0a3868efc",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tokenizers==0.22.2"
+        },
+        {
+          "name": "tokenspeed-mla",
+          "version": "0.1.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tokenspeed_mla-0.1.1.dist-info/METADATA",
+          "metadata_sha256": "0780e9e428cc4bc18983fa7c7a202c38fbb6632fb9ed9e0572b7da45c1c66ef6",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "tokenspeed-mla==0.1.1"
+        },
+        {
+          "name": "tokenspeed-triton",
+          "version": "3.8.10.post20260920",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tokenspeed_triton-3.8.10.post20260920.dist-info/METADATA",
+          "metadata_sha256": "12920353e754ca672a84af01ac31a54f612ed7f93b5a3b274fbb448105c5f840",
+          "requires_python": ">=3.10,<3.15",
+          "requested": true,
+          "requirement": "tokenspeed-triton==3.8.10.post20260920"
+        },
+        {
+          "name": "tomlkit",
+          "version": "0.15.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tomlkit-0.15.1.dist-info/METADATA",
+          "metadata_sha256": "752d0210341ae500e12ae384ebb8c287a76a00cbac2d41eb86aba2622dabaaad",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "tomlkit==0.15.1"
+        },
+        {
+          "name": "torch",
+          "version": "2.11.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torch-2.11.0.dist-info/METADATA",
+          "metadata_sha256": "d65e0ab5a65ced0dce799a2f6f32bff57b3d3e9d050069f607ef71eb24dd9976",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "torch==2.11.0"
+        },
+        {
+          "name": "torch_c_dlpack_ext",
+          "version": "0.1.5",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torch_c_dlpack_ext-0.1.5.dist-info/METADATA",
+          "metadata_sha256": "7b320b8b0f9a541a2a6b20aa73088a0ec667515399a3b2725e26c4ca1eacb18d",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "torch_c_dlpack_ext==0.1.5"
+        },
+        {
+          "name": "torch_memory_saver",
+          "version": "0.0.10",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torch_memory_saver-0.0.10.dist-info/METADATA",
+          "metadata_sha256": "b3b10943ba03512035823e018654a3f45f1873dffe7f980179e6a55e0d2891ad",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "torch_memory_saver==0.0.10"
+        },
+        {
+          "name": "torchao",
+          "version": "0.17.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torchao-0.17.0.dist-info/METADATA",
+          "metadata_sha256": "a59ebe831989c1e39488bed91f1b1119656a0bc6b722dc1a20c91d7919364da6",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "torchao==0.17.0"
+        },
+        {
+          "name": "torchaudio",
+          "version": "2.11.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torchaudio-2.11.0.dist-info/METADATA",
+          "metadata_sha256": "1ac77b6a77750febc5fe4921ac29d43b3cebf5b191d03c0e1413cab7e343ac31",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "torchaudio==2.11.0"
+        },
+        {
+          "name": "torchcodec",
+          "version": "0.11.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torchcodec-0.11.1.dist-info/METADATA",
+          "metadata_sha256": "a467d7a54bf97b334c619d96c39e4d594abf2cec92232d7145b9bb5d830b56a7",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "torchcodec==0.11.1"
+        },
+        {
+          "name": "torchvision",
+          "version": "0.26.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/torchvision-0.26.0.dist-info/METADATA",
+          "metadata_sha256": "a973d62f050ca0cf294e2b73469ab586c0f4fc4c4bd2e0a304ac4f2abb7f14fc",
+          "requires_python": ">=3.10,!=3.14.1",
+          "requested": true,
+          "requirement": "torchvision==0.26.0"
+        },
+        {
+          "name": "tqdm",
+          "version": "4.70.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/tqdm-4.70.1.dist-info/METADATA",
+          "metadata_sha256": "a5da70b966afea3a759716041bad7187f2ece02c22348cf9e7c0a512bbf15f57",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "tqdm==4.70.1"
+        },
+        {
+          "name": "traitlets",
+          "version": "5.16.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/traitlets-5.16.1.dist-info/METADATA",
+          "metadata_sha256": "e42b503240c058625ffb30c390818d72933117840cb25060614cb24f0be9e587",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "traitlets==5.16.1"
+        },
+        {
+          "name": "transformers",
+          "version": "5.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/transformers-5.6.0.dist-info/METADATA",
+          "metadata_sha256": "cafac7e675b7e0c8610949f16f9f8b0cb6dda63193bf727e3ad27fdccc706ce9",
+          "requires_python": ">=3.10.0",
+          "requested": true,
+          "requirement": "transformers==5.6.0"
+        },
+        {
+          "name": "triton",
+          "version": "3.6.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/triton-3.6.0.dist-info/METADATA",
+          "metadata_sha256": "5c9071db9b057bec89cd6d7f76f61e5f28a5e8d3717ff6c85420cf8015ee0321",
+          "requires_python": ">=3.10,<3.15",
+          "requested": true,
+          "requirement": "triton==3.6.0"
+        },
+        {
+          "name": "truststore",
+          "version": "0.10.4",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/truststore-0.10.4.dist-info/METADATA",
+          "metadata_sha256": "509a7b67bff99f2d04f57251b5bdb761bd9429467e1cebc453b7f96be4108f5b",
+          "requires_python": ">= 3.10",
+          "requested": true,
+          "requirement": "truststore==0.10.4"
+        },
+        {
+          "name": "typer",
+          "version": "0.27.2",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/typer-0.27.2.dist-info/METADATA",
+          "metadata_sha256": "d1b73586e27d662dc32af374a4f073d167706e0b2e5fa025c0a507ba0eeb4ccb",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "typer==0.27.2"
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+          "metadata_sha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "typing_extensions==4.16.0"
+        },
+        {
+          "name": "typing-inspection",
+          "version": "0.4.4",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/typing_inspection-0.4.4.dist-info/METADATA",
+          "metadata_sha256": "bad3d9e6342ef6750cf5128ec942327b8bebdce0b6e4d6f67cb15b27ae5118da",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "typing-inspection==0.4.4"
+        },
+        {
+          "name": "urllib3",
+          "version": "2.8.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/urllib3-2.8.0.dist-info/METADATA",
+          "metadata_sha256": "10898c620e8007c030e07fa5622b68358a43010025dfbd78a1cb797699de2bb4",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "urllib3==2.8.0"
+        },
+        {
+          "name": "uv",
+          "version": "0.12.19",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/uv-0.12.19.dist-info/METADATA",
+          "metadata_sha256": "72982e645bbac29c06d9e9ad1052e85485aff17a295c772e47eb087c3123dbbd",
+          "requires_python": ">=3.8",
+          "requested": true,
+          "requirement": "uv==0.12.19"
+        },
+        {
+          "name": "uvicorn",
+          "version": "0.54.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/uvicorn-0.54.0.dist-info/METADATA",
+          "metadata_sha256": "9399e5ddda3d26e842d6fb5420c38b0857aac568d53badbdc224b3a21339efa8",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "uvicorn==0.54.0"
+        },
+        {
+          "name": "uvloop",
+          "version": "0.22.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/uvloop-0.22.1.dist-info/METADATA",
+          "metadata_sha256": "7106328da9670776c358802971b7dc41c0b86ed3673bf9cc4c0d5e11ff2f3583",
+          "requires_python": ">=3.8.1",
+          "requested": true,
+          "requirement": "uvloop==0.22.1"
+        },
+        {
+          "name": "watchfiles",
+          "version": "1.3.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/watchfiles-1.3.0.dist-info/METADATA",
+          "metadata_sha256": "1fba87d08d66f10f7515e4817abd4ac7f27abf3300cb33b7ad3f79762987a502",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "watchfiles==1.3.0"
+        },
+        {
+          "name": "wcwidth",
+          "version": "0.9.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/wcwidth-0.9.1.dist-info/METADATA",
+          "metadata_sha256": "d15406ff1ccbe457bd13b219dc16dfbf9cb8d71b7d60bab15d61c418e0333b19",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "wcwidth==0.9.1"
+        },
+        {
+          "name": "xgrammar",
+          "version": "0.2.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/xgrammar-0.2.0.dist-info/METADATA",
+          "metadata_sha256": "b233ceadaed1e07e9bdd76483cdcb42e450bfad387dd2bde6ff5e934e9e7e19e",
+          "requires_python": "<4,>=3.8",
+          "requested": true,
+          "requirement": "xgrammar==0.2.0"
+        },
+        {
+          "name": "xxhash",
+          "version": "4.0.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/xxhash-4.0.1.dist-info/METADATA",
+          "metadata_sha256": "c09b864a32b9501a18e6c0e88cf5ee34c8ff304475c59e6d825812f136f3cb38",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "xxhash==4.0.1"
+        },
+        {
+          "name": "yarl",
+          "version": "1.25.1",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/yarl-1.25.1.dist-info/METADATA",
+          "metadata_sha256": "fd6baa258a11c4d7e7008272a69180d4d34aa04a6a5afda36ac5e55aa0aa4f41",
+          "requires_python": ">=3.10",
+          "requested": true,
+          "requirement": "yarl==1.25.1"
+        },
+        {
+          "name": "z3-solver",
+          "version": "4.15.4.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/z3_solver-4.15.4.0.dist-info/METADATA",
+          "metadata_sha256": "f71f14e601ac0a1142e70c872cfe192b072eac897fceaf5def8de04b3e710f58",
+          "requires_python": null,
+          "requested": true,
+          "requirement": "z3-solver==4.15.4.0"
+        },
+        {
+          "name": "zstandard",
+          "version": "0.25.0",
+          "metadata_path": "/data6t/hpk/sglang_env/lib/python3.11/site-packages/zstandard-0.25.0.dist-info/METADATA",
+          "metadata_sha256": "03d37736b26b9ae48451dd17026d93dffbd252fb708c1a2a9ae1be0c0966de92",
+          "requires_python": ">=3.9",
+          "requested": true,
+          "requirement": "zstandard==0.25.0"
+        }
+      ]
+    }
+  }
+}
